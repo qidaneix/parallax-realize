@@ -1,0 +1,43 @@
+{
+  "name": "parallax-realize",
+  "version": "1.0.0",
+  "description": "https://github.com/404视差效果重现",
+  "main": ".src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "node_modules/.bin/webpack",
+    "start": "webpack-dev-server --hot --inline",
+    "build": "node_modules/.bin/webpack --progress --profile --colors --config webpack.production.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qidaneix/parallax-realize.git"
+  },
+  "keywords": [
+    "视差",
+    "动画",
+    "跟随鼠标"
+  ],
+  "author": "not me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qidaneix/parallax-realize/issues"
+  },
+  "homepage": "https://github.com/qidaneix/parallax-realize#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "file-loader": "^0.10.0",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jquery-ui-bundle": "^1.11.4"
+  }
+}

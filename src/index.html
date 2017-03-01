@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+
+<body>
+  <div id="parallax_wrapper">
+    <div id="parallax_field">
+      <img src="<%= require('./img/bg.jpg') %>" alt="" class="js-plaxify" id="parallax_bg" data-invert="true" data-xrange="0" data-yrange="20" height="415" width="940">
+    </div>
+    <div id="parallax_illustration">
+      <img src="<%= require('./img/404.png') %>" alt="" class="js-plaxify" id="parallax_error_text" data-invert="true" data-xrange="20" data-yrange="10" height="249" width="271">
+      <img src="<%= require('./img/github.png') %>" alt="" class="js-plaxify" id="parallax_octocat" data-invert="true" data-xrange="10" data-yrange="10" height="230" width="188">
+      <img src="<%= require('./img/bigone.png') %>" alt="" class="js-plaxify" id="parallax_speeder" data-invert="true" data-xrange="10" data-yrange="10" height="156" width="440">
+      <img src="<%= require('./img/shadow.png') %>" alt="" class="js-plaxify" id="parallax_octocatshadow" data-invert="true" data-xrange="10" data-yrange="10" height="49" width="166">
+      <img src="<%= require('./img/bigoneShadow.png') %>" alt="" class="js-plaxify" id="parallax_speedershadow" data-invert="true" data-xrange="10" data-yrange="10" height="75" width="430">
+      <img src="<%= require('./img/smallone.png') %>" alt="" class="js-plaxify" id="parallax_building_1" data-invert="true" data-xrange="50" data-yrange="20" height="123" width="304">
+      <img src="<%= require('./img/smallerone.png') %>" alt="" class="js-plaxify" id="parallax_building_2" data-invert="true" data-xrange="75" data-yrange="30" height="50" width="116">
+    </div>
+  </div>
+</body>
+
+</html>

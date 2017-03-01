@@ -1,2 +1,4 @@
-.sass-cache/
-*.css.map
+node_modules/
+.vscode/
+debug.log
+npm-debug.log
